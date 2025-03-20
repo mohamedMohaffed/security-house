@@ -9,8 +9,8 @@ from firebase_admin import credentials, db, storage
 # Initialize Firebase
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://faceface-f5d7f-default-rtdb.firebaseio.com/",
-    'storageBucket': 'faceface-f5d7f.appspot.com'  # Specify your Firebase Storage bucket name here
+    'databaseURL': "____",
+    'storageBucket': '______'  # Specify your Firebase Storage bucket name here
 })
 
 # Function to find matching ID in Firebase based on image filename
